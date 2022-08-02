@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="public/css/estilos.css">
+    <title>Servi-flash</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Edu+SA+Beginner&family=Lobster&family=Quicksand:wght@300;400;500;600;700&family=Russo+One&family=Staatliches&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/07d7381051.js" crossorigin="anonymous"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <header>
+      <figure class="header__logo">
+        <img src="public/img/logoservi.png" alt="logo">
+      </figure>
+      <button class="header_icono" type="button" name="button">
+        <i class="icono fa-solid fa-bars"></i>
+      </button>
+      <nav class="header_navigation" id="menu">
+        <a class="nav__link" href="#nos">NOSOTROS</a>
+        <a class="nav__link" href="#serv">SERVICIOS</a>
+        <a class="nav__link" href="#tur">TURNO</a>
+        <a class="nav__link" href="#cont">CONTACTO</a>
+      </nav>
+    </header>
+      <div class="hero__banner">
+        <img src="public/img/portada.jpg" alt="banner">
+        <p>
+          <u class="promo">¡PROMO DEL MES!</u>
+          <br>Con tu cambio de correa de distribución, llevate sin cargo el cambio de aceite y filtro.
+          <a class="one__turn" href="#tur">
+            TURNO
+          </a>
+        </p>
+      </div>
+      <main>
+      <section id="us">
+          <h3 class="section__title" id="nos">
+              NOSOTROS
+          </h3>
+        <div class="description__us">
+          <img src="public/img/frentetaller.jpg" alt="photo">
+          <p class="section__paragraph">
+            Nos ubicados en la zona oeste de la ciudad de Rosario, a metros de Av Pellegrini y Provincias Unidas.<br>
+            Somos un equipo de trabajo con vasta experiencia en el rubro automotriz.<br>
+            Ofrecemos servicio personalizado con la mision de darle al cliente confianza, seguridad y satisfacción.
+          </p>
+      </div>
+      </section>
+
+      <section id="gallery">
+        <h3 class="section__title" id="serv">SERVICIOS</h3>
+          <article class="gallery__service">
+            <img src="public/img/1lubri.jpg" alt="lubricante">
+            <h4>Lubricentro</h4>
+          </article>
+          <article class="gallery__service">
+            <img src="public/img/2trendelantero.jpg" alt="tren delantero">
+            <h4>Tren delantero</h4>
+          </article>
+          <article class="gallery__service">
+            <img src="public/img/3alinybal.jpg" alt="alineacion y balanceo">
+            <h4>Alineación y balanceo</h4>
+          </article>
+          <article class="gallery__service">
+            <img src="public/img/4frenos.jpg" alt="frenos">
+            <h4>Frenos</h4>
+          </article>
+          <article class="gallery__service">
+            <img src="public/img/5embrague.jpg" alt="embrague">
+            <h4>Embrague</h4>
+          </article>
+          <article class="gallery__service">
+            <img src="public/img/6suspension.jpg" alt="suspension">
+            <h4>Suspensión</h4>
+          </article>
+          <article class="gallery__service">
+            <img src="public/img/7correa.jpg" alt="correa">
+            <h4>Correa de distribución</h4>
+          </article>
+      </section>
+
+      <section class="communication">
+        <h3 class="section__title" id="tur">
+            TURNO
+        </h3>
+        <div class="contact_wrapper">
+          <h4 class="title__turn">CONTÁCTENOS</h4>
+          <form class="formc" action="index.html" method="post">
+            <p class="paragraph">
+              <label for="fullname">Nombre completo</label>
+              <input type="text" name="fullname" value="" id="fullname">
+            </p>
+            <p class="paragraph">
+              <label for="email">Email</label>
+              <input type="email" name="email" value="">
+            </p>
+            <p class="paragraph">
+              <label for="phone">Telefono</label>
+              <input type="tel" name="phone" value="">
+            </p>
+            <p class="paragraph">
+              <label for="affair">Asunto</label>
+              <input type="text" name="affair" value="">
+            </p>
+            <p class="block">
+              <label for="message">Mensaje</label>
+              <textarea name="message" rows="5"></textarea>
+            </p class="block">
+            <button class="submit" type="submit" name="button">
+              Enviar
+            </button>
+          </form>
+        </div>
+      </section>
+      <section class="contact" id="cont">
+        <h3 class="section__title" id="con">CONTACTO</h3>
+        <div class="date">
+          <ul class="dates">
+            <li>
+              <i class="fa-solid fa-location-dot"> Cullen 1776 (Pellegrini 6400) </i>
+            </li>
+            <li>
+              <i class="fa-solid fa-square-phone"> (341) 156 43-5467 </i>
+            </li>
+            <li>
+              <i class="fa-solid fa-at"> serviflash67@gmail.com </i>
+            </li>
+          </ul>
+            <u>Horarios de atención:</u>
+              <p>
+                Lunes a Viernes
+                9 a 18hs.
+              </p>
+              <p>
+                Sábado
+                9 a 13hs.
+              </p>
+          </div>
+      </section>
+    </main>
+    <footer class="pie__pagina">
+      <span>@ Todos los derechos reservados Vanesa S. Rojas 2022</span>
+    </footer>
+
+    <script src="./public/js/main.js"></script>
+  </body>
+</html>
